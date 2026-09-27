@@ -2,7 +2,9 @@
 
 A fast command-line Sudoku solver written in C#/.NET 10.
 
-The code was hand-optimized using bit manipulation and SIMD intrinsics, to the point where it can solve even complex puzzles in just a few microseconds on a modern CPU.
+The code was **hand-optimized using bit manipulation and SIMD intrinsics**, to the point where it can solve even complex puzzles in just a few **microseconds** on a modern CPU.
+
+![Sudoku solver screenshot](./images/sudoku-screenshot.png)
 
 I was laying on the beach and getting bored, when I noticed a lady nearby that was doing a Sudoku.
 I started thinking of a fast algorithm to solve the puzzle and implemented this as soon as I got home.
